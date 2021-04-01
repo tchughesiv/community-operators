@@ -321,8 +321,6 @@ spec:
                 - containerPort: 8443
                   name: https
                 resources: {}
-                securityContext:
-          	  allowPrivilegeEscalation: false
               - args:
                 - --atlas-domain=https://cloud.mongodb.com
                 - --health-probe-bind-address=:8081
